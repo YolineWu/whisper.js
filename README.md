@@ -1,16 +1,16 @@
-# whisper.cpp
+# whisper.js
 
 Node.js package for Whisper speech recognition
 
-Package: https://www.npmjs.com/package/whisper.cpp
+Copy from javascript binding of [whisper.cpp](https://github.com/ggerganov/whisper.cpp/commit/940cdb1) respository
 
 ## Details
 
 The performance is comparable to when running `whisper.cpp` in the browser via WASM.
 
-The API is currently very rudimentary: [bindings/javascript/emscripten.cpp](/bindings/javascript/emscripten.cpp)
+The API is currently very rudimentary: [emscripten.cpp](emscripten.cpp)
 
-For sample usage check [tests/test-whisper.js](/tests/test-whisper.js)
+For sample usage check [test-whisper.js](test-whisper.js)
 
 ## Package building + test
 
@@ -21,6 +21,7 @@ source /path/to/emsdk/emsdk_env.sh
 # clone repo
 git clone https://github.com/ggerganov/whisper.cpp
 cd whisper.cpp
+git checkout 940cdb1
 
 # grab base.en model
 ./models/download-ggml-model.sh base.en

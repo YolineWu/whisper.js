@@ -1,14 +1,14 @@
 {
-  "name": "whisper.cpp",
+  "name": "whisper.js",
   "version": "1.4.2",
-  "description": "Whisper speech recognition",
+  "description": "Copy from whisper.cpp respository javascript binding",
   "main": "whisper.js",
   "scripts": {
     "test": "echo \"todo: add tests\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ggerganov/whisper.cpp"
+    "url": "git+https://github.com/YolineWu/whisper.js"
   },
   "keywords": [
     "openai",
@@ -17,10 +17,10 @@
     "speech-recognition",
     "transformer"
   ],
-  "author": "Georgi Gerganov",
+  "author": "Yoline Wu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ggerganov/whisper.cpp/issues"
+    "url": "https://github.com/YolineWu/whisper.js/issues"
   },
-  "homepage": "https://github.com/ggerganov/whisper.cpp#readme"
+  "homepage": "https://github.com/YolineWu/whisper.js#readme"
 }
