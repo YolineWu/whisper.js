@@ -2,7 +2,7 @@
 
 Node.js package for Whisper speech recognition
 
-Copy from javascript binding of [whisper.cpp](https://github.com/ggerganov/whisper.cpp/commit/940cdb1) respository (commit: [940cdb1](https://github.com/ggerganov/whisper.cpp/commit/940cdb1))
+Copy from javascript binding of [whisper.cpp](https://github.com/ggerganov/whisper.cpp) respository (commit: [940cdb1](https://github.com/ggerganov/whisper.cpp/commit/940cdb1))
 
 ## Details
 
